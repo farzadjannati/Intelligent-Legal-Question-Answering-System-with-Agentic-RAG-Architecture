@@ -48,12 +48,11 @@ By combining dense retrieval through multilingual E5 embeddings, metadata-aware 
 13. [Installation](#installation)
 14. [Environment Variables](#environment-variables)
 15. [Running the Application](#running-the-application)
-16. [Technologies Used](#technologies-used)
-17. [Future Improvements](#future-improvements)
-18. [Contributing](#contributing)
-19. [License](#license)
-20. [Author](#author)
-21. [Support](#support)
+16. [Future Improvements](#future-improvements)
+17. [Contributing](#contributing)
+18. [License](#license)
+19. [Author](#author)
+20. [Support](#support)
 
 # 📌 Overview
 
@@ -219,7 +218,7 @@ Advantages:
 
 ---
 
-# ✨ Grounded Answer Generation
+# Grounded Answer Generation
 
 The final response is generated exclusively from retrieved legal documents.
 
@@ -370,20 +369,6 @@ http://localhost:8000
 
 ---
 
-# 💻 Technologies Used
-
-| Category | Technology |
-|-----------|------------|
-| Agent Framework | LangGraph |
-| LLM | GPT-4o-mini |
-| Embeddings | multilingual-e5-large |
-| Vector Database | LanceDB |
-| Interface | Chainlit |
-| Workflow Engine | StateGraph |
-| Language | Python |
-
----
-
 # 📈 Future Improvements
 
 ### Retrieval
@@ -425,23 +410,22 @@ Feel free to:
 
 ---
 
-# 📜 License
+# License
 
 This project is licensed under the MIT License.
 
 ---
 
-# 👨‍💻 ## Author
+## Author
 
 **Farzad Jannati**
-
-M.Sc. Student in Information Technology, University of Tehran
+M.Sc. Student, University of Tehran
 Research Assistant @ Social Networks Lab
-NLP • LLMs • Agentic AI • RAG Systems • Information Retrieval
 
-📧 Email: `farzadjannati@ut.ac.ir`
-💼 LinkedIn: `linkedin.com/in/farzadjannati`
-💻 GitHub: `github.com/farzadjannati`
+**Research Interests:** NLP, Large Language Models (LLMs), Agentic AI, Retrieval-Augmented Generation (RAG), Information Retrieval
+
+📧 [farzadjannati@ut.ac.ir](mailto:farzadjannati@ut.ac.ir) | 💻 github.com/farzadjannati | 💼 linkedin.com/in/farzadjannati
+
 
 ---
 
