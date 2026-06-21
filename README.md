@@ -1,24 +1,25 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:2563eb&height=220&section=header&text=Agentic%20Persian%20Legal%20RAG&fontSize=34&fontColor=ffffff&fontAlignY=50&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0f766e,100:06b6d4&height=220&section=header&text=Agentic%20Persian%20Legal%20RAG&fontSize=34&fontColor=ffffff&fontAlignY=50&animation=fadeIn" />
 
 </div>
+
+---
 
 # Intelligent Legal Question Answering System for Iranian Laws using Agentic Retrieval-Augmented Generation (RAG)
 
 The project demonstrates how multi-stage agent workflows can significantly improve retrieval quality, answer grounding, and legal reasoning while maintaining transparency through execution-time monitoring and performance analysis.
----
 
 <div align="left">
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![LangGraph](https://img.shields.io/badge/LangGraph-Agentic_Workflow-orange?style=flat)](https://www.langchain.com/langgraph)
-[![LanceDB](https://img.shields.io/badge/LanceDB-Vector_Database-red?style=flat)]
-[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-green?style=flat)]
-[![Embeddings](https://img.shields.io/badge/Embedding-E5_Large-purple?style=flat)]
-[![Chainlit](https://img.shields.io/badge/UI-Chainlit-blueviolet?style=flat)]
-[![NLP](https://img.shields.io/badge/Domain-Legal_AI-success?style=flat)]
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat)]
+[![LanceDB](https://img.shields.io/badge/LanceDB-Vector_Database-red?style=flat)](https://lancedb.github.io/lancedb/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT_4o_mini-green?style=flat&logo=openai&logoColor=white)](https://openai.com/)
+[![Embeddings](https://img.shields.io/badge/Embedding-E5_Large-purple?style=flat)](https://huggingface.co/intfloat/multilingual-e5-large)
+[![Chainlit](https://img.shields.io/badge/UI-Chainlit-blueviolet?style=flat)](https://docs.chainlit.io/)
+[![NLP](https://img.shields.io/badge/Domain-Legal_AI-success?style=flat)](https://github.com/farzadjannati/Agentic-Persian-Legal-RAG)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat)](https://opensource.org/licenses/MIT)
 
 </div>
 
@@ -34,28 +35,25 @@ By combining dense retrieval through multilingual E5 embeddings, metadata-aware 
 
 1. [Overview](#overview)
 2. [Objectives](#objectives)
-3. [Key Features](#key-features)
-4. [System Architecture](#system-architecture)
-5. [Agent Workflow](#agent-workflow)
-6. [Query Rewriting](#query-rewriting)
-7. [Intent Classification](#intent-classification)
-8. [Metadata Extraction](#metadata-extraction)
-9. [Semantic Retrieval](#semantic-retrieval)
-10. [LLM-Based Re-ranking](#llm-based-re-ranking)
-11. [Grounded Answer Generation](#grounded-answer-generation)
-12. [Performance Analysis](#performance-analysis)
-13. [Example Interaction](#example-interaction)
-14. [Repository Structure](#project-structure)
-15. [Installation](#installation)
-16. [Environment Variables](#environment-variables)
-17. [Running the Application](#running-the-application)
-18. [Technologies Used](#technologies-used)
-19. [Future Improvements](#future-improvements)
-20. [Citation](#citation)
-21. [Acknowledgements](#acknowledgements)
-22. [Author](#author)
-23. [Support](#support)
-24. [License](#license)
+3. [Agent Workflow](#agent-workflow)
+4. [Query Rewriting](#query-rewriting)
+5. [Intent Classification](#intent-classification)
+6. [Metadata Extraction](#metadata-extraction)
+7. [Semantic Retrieval](#semantic-retrieval)
+8. [LLM-Based Re-ranking](#llm-based-re-ranking)
+9. [Grounded Answer Generation](#grounded-answer-generation)
+10. [Performance Analysis](#performance-analysis)
+11. [Example Interaction](#example-interaction)
+12. [Project Structure](#project-structure)
+13. [Installation](#installation)
+14. [Environment Variables](#environment-variables)
+15. [Running the Application](#running-the-application)
+16. [Technologies Used](#technologies-used)
+17. [Future Improvements](#future-improvements)
+18. [Contributing](#contributing)
+19. [License](#license)
+20. [Author](#author)
+21. [Support](#support)
 
 # 📌 Overview
 
@@ -433,13 +431,17 @@ This project is licensed under the MIT License.
 
 ---
 
-# 👨‍💻 Author
+# 👨‍💻 ## Author
 
-### Farzad Jannati
+**Farzad Jannati**
 
-M.Sc. Student in Information Technology
+M.Sc. Student in Information Technology, University of Tehran
+Research Assistant @ Social Networks Lab
+NLP • LLMs • Agentic AI • RAG Systems • Information Retrieval
 
-University of Tehran
+📧 Email: `farzadjannati@ut.ac.ir`
+💼 LinkedIn: `linkedin.com/in/farzadjannati`
+💻 GitHub: `github.com/farzadjannati`
 
 ---
 
