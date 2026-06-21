@@ -419,12 +419,13 @@ This project is licensed under the MIT License.
 ## Author
 
 **Farzad Jannati**
+
 M.Sc. Student, University of Tehran
 Research Assistant @ Social Networks Lab
 
 **Research Interests:** NLP, Large Language Models (LLMs), Agentic AI, Retrieval-Augmented Generation (RAG), Information Retrieval
 
-📧 [farzadjannati@ut.ac.ir](mailto:farzadjannati@ut.ac.ir) | 💻 github.com/farzadjannati | 💼 linkedin.com/in/farzadjannati
+📧 [farzadjannati@ut.ac.ir](mailto:farzadjannati@ut.ac.ir) | 💻 [github.com/farzadjannati](https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fgithub.com%2Ffarzadjannati&urlhash=a0rx&mt=brBfZSP4bCUI-5BVi3O-u32K5JYD_jYglWaIRl7u4W1vgot63cAHUn2rAR-eTWjUy5WanE4DwgdKwevOrVPKDCe02x4U&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BNLCyDWHDRaSc%2Bknfycv%2FkA%3D%3D) | 💼 linkedin.com/in/farzadjannati
 
 
 ---
