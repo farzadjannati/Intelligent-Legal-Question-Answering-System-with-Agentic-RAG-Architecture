@@ -4,11 +4,7 @@
 
 </div>
 
----
-
-# ⚖️ Agentic Persian Legal RAG
-
-### Intelligent Legal Question Answering System for Iranian Laws using Agentic Retrieval-Augmented Generation (RAG)
+# Intelligent Legal Question Answering System for Iranian Laws using Agentic Retrieval-Augmented Generation (RAG)
 
 This repository contains the official implementation of an **Agentic Retrieval-Augmented Generation (RAG)** framework designed for answering legal questions about Iranian laws. The system leverages **LangGraph**, **LanceDB**, **GPT-4o-mini**, and **multilingual-e5-large embeddings** to perform query rewriting, intent classification, metadata-aware retrieval, LLM-based reranking, and grounded answer generation.
 
