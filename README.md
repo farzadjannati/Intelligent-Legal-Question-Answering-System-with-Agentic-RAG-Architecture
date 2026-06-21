@@ -265,7 +265,7 @@ The execution time of every node is recorded during inference.
 
 ---
 
-# 🧪 Example Interaction
+# Example Interaction
 
 ### User
 
@@ -324,7 +324,7 @@ Agentic-Persian-Legal-RAG
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Agentic-Persian-Legal-RAG.git
+git clone https://github.com/farzadjannati/Agentic-Persian-Legal-RAG.git
 
 cd Agentic-Persian-Legal-RAG
 ```
