@@ -1,27 +1,67 @@
 <div align="center">
 
-# ⚖️ Agentic Persian Legal RAG
-
-### Intelligent Legal Question Answering System for Iranian Laws using Agentic Retrieval-Augmented Generation
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/Python-3.10+-blue.svg">
-<img src="https://img.shields.io/badge/LangGraph-Agentic%20Workflow-orange">
-<img src="https://img.shields.io/badge/OpenAI-GPT--4o--mini-green">
-<img src="https://img.shields.io/badge/LanceDB-Vector%20Database-red">
-<img src="https://img.shields.io/badge/Embedding-multilingual--e5--large-purple">
-<img src="https://img.shields.io/badge/License-MIT-yellow">
-
-</p>
-
-<p align="center">
-An intelligent Persian legal assistant that combines Agentic RAG, semantic retrieval, metadata-aware search, and LLM reranking to answer questions about Iranian laws.
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:2563eb&height=220&section=header&text=Agentic%20Persian%20Legal%20RAG&fontSize=34&fontColor=ffffff&fontAlignY=50&animation=fadeIn" />
 
 </div>
 
 ---
+
+# ⚖️ Agentic Persian Legal RAG
+
+### Intelligent Legal Question Answering System for Iranian Laws using Agentic Retrieval-Augmented Generation (RAG)
+
+This repository contains the official implementation of an **Agentic Retrieval-Augmented Generation (RAG)** framework designed for answering legal questions about Iranian laws. The system leverages **LangGraph**, **LanceDB**, **GPT-4o-mini**, and **multilingual-e5-large embeddings** to perform query rewriting, intent classification, metadata-aware retrieval, LLM-based reranking, and grounded answer generation.
+
+The project demonstrates how multi-stage agent workflows can significantly improve retrieval quality, answer grounding, and legal reasoning while maintaining transparency through execution-time monitoring and performance analysis.
+---
+
+<div align="left">
+
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![LangGraph](https://img.shields.io/badge/LangGraph-Agentic_Workflow-orange?style=flat)](https://www.langchain.com/langgraph)
+[![LanceDB](https://img.shields.io/badge/LanceDB-Vector_Database-red?style=flat)]
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-green?style=flat)]
+[![Embeddings](https://img.shields.io/badge/Embedding-E5_Large-purple?style=flat)]
+[![Chainlit](https://img.shields.io/badge/UI-Chainlit-blueviolet?style=flat)]
+[![NLP](https://img.shields.io/badge/Domain-Legal_AI-success?style=flat)]
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat)]
+
+</div>
+
+## Abstract
+
+Legal question answering remains one of the most challenging applications of Large Language Models due to domain-specific terminology, strict factual requirements, and the high cost of hallucinations.
+
+This project introduces an Agentic RAG framework specifically designed for Iranian legal documents. Unlike traditional single-stage retrieval pipelines, the proposed system decomposes the reasoning process into multiple specialized agents, including query rewriting, intent classification, metadata extraction, semantic retrieval, reranking, and answer generation.
+
+By combining dense retrieval through multilingual E5 embeddings, metadata-aware filtering in LanceDB, and GPT-4o-mini-based reranking and generation, the framework provides more accurate, grounded, and explainable responses. Furthermore, execution-time profiling enables detailed latency analysis and identification of computational bottlenecks within the pipeline.
+
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Objectives](#objectives)
+3. [Key Features](#key-features)
+4. [System Architecture](#system-architecture)
+5. [Agent Workflow](#agent-workflow)
+6. [Query Rewriting](#query-rewriting)
+7. [Intent Classification](#intent-classification)
+8. [Metadata Extraction](#metadata-extraction)
+9. [Semantic Retrieval](#semantic-retrieval)
+10. [LLM-Based Re-ranking](#llm-based-re-ranking)
+11. [Grounded Answer Generation](#grounded-answer-generation)
+12. [Performance Analysis](#performance-analysis)
+13. [Example Interaction](#example-interaction)
+14. [Repository Structure](#project-structure)
+15. [Installation](#installation)
+16. [Environment Variables](#environment-variables)
+17. [Running the Application](#running-the-application)
+18. [Technologies Used](#technologies-used)
+19. [Future Improvements](#future-improvements)
+20. [Citation](#citation)
+21. [Acknowledgements](#acknowledgements)
+22. [Author](#author)
+23. [Support](#support)
+24. [License](#license)
 
 # 📌 Overview
 
@@ -53,6 +93,19 @@ The primary goals of this project are:
 - Evaluate latency and bottlenecks of Agentic RAG systems
 
 ---
+
+## Key Features
+
+- **Agentic RAG Pipeline** powered by LangGraph.
+- **Query Rewriting Agent** for retrieval optimization.
+- **Intent Classification Agent** for smart routing.
+- **Metadata-Aware Retrieval** using legal-domain filtering.
+- **Semantic Search** with multilingual E5 embeddings.
+- **LLM-Based Re-ranking** using GPT-4o-mini.
+- **Grounded Legal Answer Generation** with source awareness.
+- **Execution-Time Monitoring** for every graph node.
+- **Interactive User Interface** through Chainlit.
+- **Persian Legal NLP Pipeline** tailored for Iranian law documents.
 
 # 🏗️ System Architecture
 
@@ -451,3 +504,9 @@ University of Tehran
 # ⭐ Support
 
 If you find this project useful, consider giving it a star ⭐
+
+---
+
+<p align="center">
+Built with ❤️ using LangGraph, LanceDB, OpenAI and Chainlit
+</p>
