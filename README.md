@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0f766e,100:06b6d4&height=220&section=header&text=Agentic%20Persian%20Legal%20RAG&fontSize=34&fontColor=ffffff&fontAlignY=50&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:1e3a8a,100:f59e0b&height=220&section=header&text=Agentic%20Persian%20Legal%20RAG&fontSize=34&fontColor=ffffff&fontAlignY=50&animation=fadeIn" />
 
 </div>
 
