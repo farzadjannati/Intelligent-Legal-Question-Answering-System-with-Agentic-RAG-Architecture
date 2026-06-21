@@ -88,59 +88,7 @@ The primary goals of this project are:
 
 ---
 
-## Key Features
-
-- **Agentic RAG Pipeline** powered by LangGraph.
-- **Query Rewriting Agent** for retrieval optimization.
-- **Intent Classification Agent** for smart routing.
-- **Metadata-Aware Retrieval** using legal-domain filtering.
-- **Semantic Search** with multilingual E5 embeddings.
-- **LLM-Based Re-ranking** using GPT-4o-mini.
-- **Grounded Legal Answer Generation** with source awareness.
-- **Execution-Time Monitoring** for every graph node.
-- **Interactive User Interface** through Chainlit.
-- **Persian Legal NLP Pipeline** tailored for Iranian law documents.
-
-# 🏗️ System Architecture
-
-<p align="center">
-<img src="figures/architecture.png" width="100%">
-</p>
-
-The workflow consists of multiple LangGraph nodes:
-
-```text
-User Query
-     │
-     ▼
-Query Rewriter
-     │
-     ▼
-Intent Classifier
-     │
-     ├── Greeting
-     ├── Abusive
-     └── Legal Question
-              │
-              ▼
-Metadata Extraction
-              │
-              ▼
-Semantic Retrieval
-              │
-              ▼
-LLM Re-ranking
-              │
-              ▼
-Answer Generation
-              │
-              ▼
-Final Response
-```
-
----
-
-# ⚙️ Agent Workflow
+# Agent Workflow
 
 ```mermaid
 flowchart TD
@@ -168,7 +116,7 @@ H --> I[Final Answer]
 
 ---
 
-# 🔍 Query Rewriting
+# Query Rewriting
 
 User queries are first rewritten using GPT-4o-mini to generate a retrieval-friendly version.
 
@@ -194,7 +142,7 @@ Benefits:
 
 ---
 
-# 🧠 Intent Classification
+# Intent Classification
 
 The system categorizes incoming requests into:
 
